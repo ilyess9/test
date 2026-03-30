@@ -1,0 +1,26 @@
+{
+  "name": "dependabot-test",
+  "version": "1.0.0",
+  "description": "Projet de test avec des dépendances vulnérables pour Dependabot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.4",
+    "axios": "0.21.1",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.1",
+    "dotenv": "8.2.0",
+    "moment": "2.29.1",
+    "jsonwebtoken": "8.5.1",
+    "multer": "1.4.2",
+    "marked": "1.2.9"
+  },
+  "devDependencies": {
+    "jest": "26.6.3",
+    "nodemon": "2.0.4"
+  }
+}
